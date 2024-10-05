@@ -6,4 +6,4 @@ This Android app uses the phone’s GPS to fetch and display the user’s curren
 - Displays the latitude and longitude.
 - Converts the coordinates to a human-readable address.
 
-[Apk Download link](https://github.com/kaustubhsuryakantdeshpande/Location-Finder/blob/master/LocationApp.apk)
+[Apk Download link](https://github.com/kaustubhsuryakantdeshpande/Location-Finder/raw/refs/heads/master/LocationApp.apk)
