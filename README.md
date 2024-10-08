@@ -9,8 +9,11 @@ This Android app uses the phone’s GPS to fetch and display the user’s curren
 [Apk Download link](https://github.com/kaustubhsuryakantdeshpande/Location-Finder/raw/refs/heads/master/LocationApp.apk)
 
 # Images
- ![alt text](https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Screenshot_20241006-152552.jpg)
 
- ![alt text](https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Screenshot_20241006-152603.jpg)
-
-  ![alt text](https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Screenshot_20241006-152607.jpg)
+<table>
+  <tr>
+    <td><img src="https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Screenshot_20241006-152552.jpg" alt="App Screenshot" width="300"></td>
+    <td><img src="https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Screenshot_20241006-152603.jpg" alt="App Screenshot" width="300"></td>
+    <td><img src="https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Screenshot_20241006-152607.jpg" alt="App Screenshot" width="300"></td>
+  </tr>
+</table>
