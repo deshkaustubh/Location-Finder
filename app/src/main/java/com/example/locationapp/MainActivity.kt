@@ -1,6 +1,8 @@
 package com.example.locationapp
 
 import android.Manifest
+import android.content.ClipData
+import android.content.ClipboardManager
 import android.content.Context
 import android.os.Bundle
 import android.widget.Toast
@@ -10,14 +12,18 @@ import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
 import androidx.compose.material3.Button
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -30,6 +36,8 @@ import androidx.compose.ui.unit.dp
 import androidx.core.app.ActivityCompat
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.locationapp.ui.theme.LocationAppTheme
+import androidx.compose.material.icons.filled.ContentCopy
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -110,14 +118,30 @@ fun LocationDisplay(
         verticalArrangement = Arrangement.Center
     ) {
         if(location!=null) {
-            Box(
+            Row(
                 modifier = Modifier
                     .border(3.dp, MaterialTheme.colorScheme.primary)
+                    .padding(16.dp),
+                verticalAlignment = Alignment.CenterVertically
             ) {
                 // Add child composables here
                 Text(
                     text = "Latitude-> ${location.latitude} \n Longitude-> ${location.longitude} \n Address ->\n $address",
-                    modifier = Modifier.align(Alignment.Center)
+                    modifier = Modifier.weight(1f)
+                )
+                Icon(
+                    imageVector = Icons.Default.ContentCopy,
+                    contentDescription = "Copy Address",
+                    modifier = Modifier
+                        .clickable {
+                            copyToClipboard(
+                                context,
+                                "Latitude-> ${location.latitude} \n Longitude-> ${location.longitude} \n Address ->\n $address"
+                            )
+                            Toast.makeText(context, "Address copied to clipboard", Toast.LENGTH_SHORT).show()
+                        }
+                        .padding(start = 8.dp)
+                        .padding(end = 8.dp)
                 )
             }
         }else{
@@ -155,4 +179,10 @@ fun LocationDisplay(
             Text(text = "Get Location")
         }
     }
+}
+
+private fun copyToClipboard(context: Context, text: String) {
+    val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+    val clip = ClipData.newPlainText("Address", text)
+    clipboard.setPrimaryClip(clip)
 }

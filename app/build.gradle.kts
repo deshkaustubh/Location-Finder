@@ -51,6 +51,10 @@ android {
 
 dependencies {
 
+    // For icon of copy recommended by co pilot
+
+    implementation ("androidx.compose.material:material-icons-extended:1.0.5")
+
     // For viewModel()
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5")
 
