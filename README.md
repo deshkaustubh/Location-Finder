@@ -12,8 +12,8 @@ This Android app uses the phone’s GPS to fetch and display the user’s curren
 
 <table>
   <tr>
-    <td><img src="https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Screenshot_20241006-152552.jpg" alt="App Screenshot" width="300"></td>
-    <td><img src="https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Screenshot_20241006-152603.jpg" alt="App Screenshot" width="300"></td>
-    <td><img src="https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Screenshot_20241006-152607.jpg" alt="App Screenshot" width="300"></td>
+    <td><img src="https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Version2/LocationAppCovericon.jpg" alt="App Screenshot" width="300"></td>
+    <td><img src="https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Version2/LocationAppHome.jpg" alt="App Screenshot" width="300"></td>
+    <td><img src="https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Version2/LocationAppCopyFeature.jpg" alt="App Screenshot" width="300"></td>
   </tr>
 </table>
