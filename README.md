@@ -9,7 +9,7 @@ This Android app uses the phone’s GPS to fetch and display the user’s curren
 - 📋 Allows the user to copy his location.
 - 🌗 Adapts according to your device theme.
 
-[📥 Apk Download link](https://github.com/kaustubhsuryakantdeshpande/Location-Finder/raw/refs/heads/master/LocationApp.apk)
+[📥 Apk Download link](https://github.com/kaustubhsuryakantdeshpande/apk-files/raw/refs/heads/main/LocationFinder%20V2.apk)
 
 ## 📸 Images
 <table>
