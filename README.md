@@ -30,6 +30,7 @@ This Android app uses the phone’s GPS to fetch and display the user’s curren
   
   #### Features
   - Simple app with get location functionality.
+  - [📥 Apk Download link](https://github.com/kaustubhsuryakantdeshpande/Location-Finder/raw/refs/heads/master/LocationApp.apk)
   
   #### 📸 Version 1 Images
   <table>
@@ -51,6 +52,8 @@ This Android app uses the phone’s GPS to fetch and display the user’s curren
   - 📦 Added box to the location.
   - 🗂️ Separated the coordinates and address.
   - 📋 Added copy feature.
+  - [📥 Apk Download link](blob:https://github.com/4c3afb1f-edad-47d5-b584-c9fe4372d345)
+
   
   #### 📸 Version 2 Images
   <table>
