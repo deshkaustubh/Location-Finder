@@ -52,7 +52,7 @@ This Android app uses the phone’s GPS to fetch and display the user’s curren
   - 📦 Added box to the location.
   - 🗂️ Separated the coordinates and address.
   - 📋 Added copy feature.
-  - [📥 Apk Download link](blob:https://github.com/4c3afb1f-edad-47d5-b584-c9fe4372d345)
+  - [📥 Apk Download link](https://github.com/kaustubhsuryakantdeshpande/apk-files/raw/refs/heads/main/LocationFinder%20V2.apk)
 
   
   #### 📸 Version 2 Images
