@@ -1,4 +1,4 @@
-git remote # GPS Location App
+# GPS Location App
 This Android app uses the phone’s GPS to fetch and display the user’s current location coordinates (latitude and longitude) and address.
 
 # Features
