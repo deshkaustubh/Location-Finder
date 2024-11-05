@@ -24,7 +24,7 @@ This Android app uses the phone’s GPS to fetch and display the user’s curren
 
 ## 📜 Version History
 
-### Version 1
+### Version 1.0
 <details>
   <summary>Details</summary>
   
@@ -32,7 +32,7 @@ This Android app uses the phone’s GPS to fetch and display the user’s curren
   - Simple app with get location functionality.
   - [📥 Apk Download link](https://github.com/kaustubhsuryakantdeshpande/Location-Finder/raw/refs/heads/master/LocationApp.apk)
   
-  #### 📸 Version 1 Images
+  #### 📸 Version 1.0 Images
   <table>
     <tr>
       <td><img src="https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Screenshot_20241006-152552.jpg" alt="App Screenshot" width="300"></td>
@@ -44,7 +44,7 @@ This Android app uses the phone’s GPS to fetch and display the user’s curren
   </table>
 </details>
 
-### Version 2 🚀
+### Version 2.0 🚀
 <details>
   <summary>Details</summary>
   
@@ -55,7 +55,7 @@ This Android app uses the phone’s GPS to fetch and display the user’s curren
   - [📥 Apk Download link](https://github.com/kaustubhsuryakantdeshpande/apk-files/raw/refs/heads/main/LocationFinder%20V2.apk)
 
   
-  #### 📸 Version 2 Images
+  #### 📸 Version 2.0 Images
   <table>
     <tr>
       <td><img src="https://github.com/kaustubhsuryakantdeshpande/images/blob/main/Location%20Finder/Version2/LocationAppCovericon.jpg" alt="App Screenshot" width="300"></td>
